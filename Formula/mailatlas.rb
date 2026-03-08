@@ -4,7 +4,7 @@ class Mailatlas < Formula
   desc "Email ingestion for AI agents and data applications"
   homepage "https://mailatlas.dev"
   url "https://github.com/mailatlas/mailatlas/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_AT_RELEASE"
+  sha256 "8ee0b92813b22294dd9d017d7f966eccd62a535e86413a90337e752868b7b93a"
   license "MIT"
 
   depends_on "python@3.12"
