@@ -1,0 +1,15 @@
+name: Audit
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Audit formula
+        run: brew audit --strict --formula Formula/mailatlas.rb
