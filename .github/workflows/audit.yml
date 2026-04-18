@@ -12,4 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Audit formula
-        run: brew audit --strict --formula Formula/mailatlas.rb
+        run: |
+          brew tap mailatlas/mailatlas "$GITHUB_WORKSPACE"
+          brew audit --strict --formula mailatlas/mailatlas/mailatlas
