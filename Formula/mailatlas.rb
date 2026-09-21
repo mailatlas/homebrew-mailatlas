@@ -1,10 +1,10 @@
 class Mailatlas < Formula
   include Language::Python::Virtualenv
 
-  desc "Local email access for AI agents and data applications"
+  desc "Email access for AI agents"
   homepage "https://mailatlas.dev"
-  url "https://github.com/mailatlas/mailatlas/releases/download/v0.2.0/mailatlas-0.2.0.tar.gz"
-  sha256 "e32618ba52ab6be5d72e206e4baf2cb798f0183223d8ed4f1165c21d45b27103"
+  url "https://github.com/mailatlas/mailatlas/releases/download/v0.3.0/mailatlas-0.3.0.tar.gz"
+  sha256 "5500b0a1a8c84e825eb4bc859429bcdbc671c5216f95b28c44bb000a9c4567e6"
   license "MIT"
 
   depends_on "python@3.12"
